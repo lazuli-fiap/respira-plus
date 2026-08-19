@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="900" height="300" fill="#FAF9F6"/>
+
+  <!-- Breathing concentric circles icon -->
+  <g transform="translate(150,150)">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#B8A9E0" stroke-width="6" opacity="0.55"/>
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#8FCACA" stroke-width="7" opacity="0.75"/>
+    <circle cx="0" cy="0" r="38" fill="#5FB3B3"/>
+    <circle cx="0" cy="0" r="14" fill="#FAF9F6"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="270" y="140" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#2D3142">Respira<tspan fill="#5FB3B3">+</tspan></text>
+  <text x="272" y="180" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#6B7280">seu espaço para respirar entre uma prova e outra</text>
+</svg>
