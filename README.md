@@ -35,11 +35,18 @@ Estudantes universitários de graduação (17–26 anos) que enfrentam picos de 
 
 > Lista completa de requisitos funcionais e não funcionais (RF/RNF) em [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx).
 
+## Diagramas (UML)
+
+Os diagramas de Casos de Uso e de Classes estão disponíveis em dois lugares:
+
+- Embutidos na documentação: [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx)
+- Versão colaborativa/editável no Miro: [🔗 adicionar link do board aqui]
+
 ## Tecnologias (planejadas)
 
-- **Frontend:** HTML, CSS, JS
-- **Backend:** Node.js
-- **Banco de dados:** a definir pelo grupo
+- **Frontend:** a definir pelo grupo (ex.: React / HTML, CSS, JS)
+- **Backend:** a definir pelo grupo (ex.: Node.js, Python/Flask ou similar)
+- **Banco de dados:** a definir pelo grupo (a partir do CP6)
 - **Design:** Figma
 - **Gestão do projeto:** Trello
 - **Versionamento:** Git / GitHub
@@ -60,6 +67,7 @@ respira-plus/
 └── LICENSE
 ```
 
+> No CP4 as pastas `src/` podem estar vazias ou conter apenas um `.gitkeep` — o código começa a nascer no CP5. Os diagramas UML ficam na documentação (`docs/`) e no board do Miro linkado acima.
 
 ## Equipe
 
@@ -71,3 +79,10 @@ respira-plus/
 | Emily Pereira Ribeiro | Desenvolvedor(a) Backend / Arquitetura |
 | Fernanda Pereira Molina Teixeira | QA / Documentação técnica & GitHub |
 
+## Como rodar (a partir do CP5)
+
+Instruções de instalação e execução serão adicionadas aqui assim que o protótipo funcional estiver disponível.
+
+## Licença
+
+Projeto acadêmico desenvolvido para a disciplina de Engenharia de Software — Engenharia de Computação, FIAP. Uso educacional.
