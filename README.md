@@ -42,6 +42,10 @@ Os diagramas de Casos de Uso e de Classes estão disponíveis em dois lugares:
 - Embutidos na documentação: [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx)
 - Versão colaborativa/editável no Miro: [Board Respira+ no Miro](https://miro.com/app/board/uXjVHwJoSyw=/)
 
+## Identidade visual (Figma)
+
+A marca (logotipo, paleta de cores e tipografia) também foi replicada em um board no Figma: [Respira+ — Identidade Visual no Figma](https://www.figma.com/design/Pg7RGh6ZbN8zK07fxyIkC7)
+
 ## Tecnologias (planejadas)
 
 - **Frontend:** a definir pelo grupo (ex.: React / HTML, CSS, JS)
@@ -68,6 +72,10 @@ respira-plus/
 ```
 
 > No CP4 as pastas `src/` podem estar vazias ou conter apenas um `.gitkeep` — o código começa a nascer no CP5. Os diagramas UML ficam na documentação (`docs/`) e no board do Miro linkado acima.
+
+## Gestão do projeto (Trello)
+
+Board com as colunas Backlog, To Do, Doing e Done, tarefas distribuídas entre os integrantes: [Board Respira+ no Trello](https://trello.com/b/hsal1aBF/respira-cp4-cp5-cp6)
 
 ## Equipe
 
