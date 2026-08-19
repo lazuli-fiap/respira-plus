@@ -77,6 +77,11 @@ respira-plus/
 
 Board com as colunas Backlog, To Do, Doing e Done, tarefas distribuídas entre os integrantes: [Board Respira+ no Trello](https://trello.com/b/hsal1aBF/respira-cp4-cp5-cp6)
 
+## Vídeos
+
+- Pitch de venda (1 min): [assista no YouTube](https://youtu.be/ClqMMybt2_o)
+- Apresentação do projeto (2 min): [assista no YouTube](https://youtu.be/B2KggbfRmUo)
+
 ## Equipe
 
 | Integrante | Papel |
