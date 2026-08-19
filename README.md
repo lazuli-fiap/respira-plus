@@ -40,7 +40,7 @@ Estudantes universitários de graduação (17–26 anos) que enfrentam picos de 
 Os diagramas de Casos de Uso e de Classes estão disponíveis em dois lugares:
 
 - Embutidos na documentação: [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx)
-- Versão colaborativa/editável no Miro: [🔗 adicionar link do board aqui]
+- Versão colaborativa/editável no Miro: [Board Respira+ no Miro](https://miro.com/app/board/uXjVHwJoSyw=/)
 
 ## Tecnologias (planejadas)
 
