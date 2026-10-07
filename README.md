@@ -2,7 +2,7 @@
 
 **seu espaço para respirar entre uma prova e outra**
 
-![status](https://img.shields.io/badge/status-CP4%20%E2%80%94%20Idealiza%C3%A7%C3%A3o-5FB3B3)
+![status](https://img.shields.io/badge/status-CP5%20%E2%80%94%20Prot%C3%B3tipo%20Funcional-5FB3B3)
 
 ## Sobre o projeto
 
@@ -10,8 +10,8 @@ O **Respira+** é um aplicativo web de bem-estar estudantil que ajuda universit�
 
 | Checkpoint | Entrega |
 |---|---|
-| **CP4** (atual) | Idealização: documentação, marca, UML inicial, pitch |
-| CP5 | Protótipo funcional com dados mockados |
+| CP4 | Idealização: documentação, marca, UML inicial, pitch |
+| **CP5** (atual) | Protótipo funcional com dados mockados |
 | CP6 | Produto final, com persistência de dados real e instalável |
 
 ## O problema
@@ -33,7 +33,7 @@ Estudantes universitários de graduação (17–26 anos) que enfrentam picos de 
 - Edição de perfil
 - Painel administrativo para gestão de conteúdo da biblioteca
 
-> Lista completa de requisitos funcionais e não funcionais (RF/RNF) em [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx).
+> Lista completa de requisitos funcionais e não funcionais (RF/RNF), com status de implementação pós-protótipo, em [`docs/CP5_Respira+_Documentacao.docx`](docs/CP5_Respira+_Documentacao.docx) (documentação original do CP4 em [`docs/CP4_Respira+_Documentacao.docx`](docs/CP4_Respira+_Documentacao.docx)).
 
 ## Diagramas (UML)
 
@@ -46,14 +46,15 @@ Os diagramas de Casos de Uso e de Classes estão disponíveis em dois lugares:
 
 A marca (logotipo, paleta de cores e tipografia) também foi replicada em um board no Figma: [Respira+ — Identidade Visual no Figma](https://www.figma.com/design/Pg7RGh6ZbN8zK07fxyIkC7)
 
-## Tecnologias (planejadas)
+## Tecnologias
 
-- **Frontend:** a definir pelo grupo (ex.: React / HTML, CSS, JS)
-- **Backend:** a definir pelo grupo (ex.: Node.js, Python/Flask ou similar)
+- **Frontend:** React + Vite, React Router, Recharts — dados mockados em `localStorage` (sem backend neste checkpoint)
+- **Backend:** a definir pelo grupo a partir do CP6 (ex.: Node.js, Python/Flask ou similar)
 - **Banco de dados:** a definir pelo grupo (a partir do CP6)
 - **Design:** Figma
 - **Gestão do projeto:** Trello
 - **Versionamento:** Git / GitHub
+- **Deploy:** GitHub Actions + GitHub Pages
 
 ## Estrutura de pastas
 
@@ -71,7 +72,7 @@ respira-plus/
 └── LICENSE
 ```
 
-> No CP4 as pastas `src/` podem estar vazias ou conter apenas um `.gitkeep` — o código começa a nascer no CP5. Os diagramas UML ficam na documentação (`docs/`) e no board do Miro linkado acima.
+> A partir do CP5, `src/frontend/` contém o código-fonte do protótipo (React + Vite). `src/backend/` segue vazio — nasce no CP6. Os diagramas UML ficam na documentação (`docs/`) e no board do Miro linkado acima.
 
 ## Gestão do projeto (Trello)
 
@@ -94,7 +95,26 @@ Board com as colunas Backlog, To Do, Doing e Done, tarefas distribuídas entre o
 
 ## Como rodar (a partir do CP5)
 
-Instruções de instalação e execução serão adicionadas aqui assim que o protótipo funcional estiver disponível.
+O protótipo é publicado automaticamente via GitHub Actions a cada push em `main` que altere `src/frontend/`.
+
+**Ambiente publicado, sem necessidade de instalação:**
+
+[lazuli-fiap.github.io/respira-plus](https://lazuli-fiap.github.io/respira-plus/)
+
+**Ou localmente, a partir do código-fonte:**
+
+```
+cd src/frontend
+npm install
+npm run dev   # acesse http://localhost:5173
+```
+
+**Contas de demonstração:**
+
+- Estudante: `estudante@respira.com` / `123456`
+- Administrador: `admin@respira.com` / `admin123` (acesso ao painel administrativo — RF08)
+
+Também é possível criar uma conta nova pela tela de cadastro (RF01). Não há backend real neste checkpoint: todos os dados são simulados e persistidos em `localStorage`.
 
 ## Licença
 
