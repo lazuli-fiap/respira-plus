@@ -80,6 +80,13 @@ Board com as colunas Backlog, To Do, Doing e Done, tarefas distribuídas entre o
 
 ## Vídeos
 
+**CP5:**
+
+- Simulação funcional do protótipo: [assista no YouTube](https://youtu.be/Ry1YUwl71_E)
+- Apresentação do checkpoint (2 min): a adicionar após a gravação
+
+**CP4:**
+
 - Pitch de venda (1 min): [assista no YouTube](https://youtu.be/ClqMMybt2_o)
 - Apresentação do projeto (2 min): [assista no YouTube](https://youtu.be/B2KggbfRmUo)
 
